@@ -15,8 +15,6 @@
     echo "<br>";
     echo "<br>";
     echo "<br>";
-    
-     hhdhdhdhdjj
 
     $arr1 = ['carros', 2];
     $p = ['nome' => 'DERIK', 'idade' => '20', 'cor' => 'BRANCO'];
