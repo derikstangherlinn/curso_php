@@ -16,8 +16,6 @@
     echo "<br>";
     echo "<br>";
 
-    etste tetse tete tes 
-
     $arr1 = ['carros', 2];
     $p = ['nome' => 'DERIK', 'idade' => '20', 'cor' => 'BRANCO'];
     echo "<br>";
