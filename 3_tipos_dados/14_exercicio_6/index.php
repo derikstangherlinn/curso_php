@@ -11,6 +11,6 @@
     print_r($carro);
 
     $marca = $carro ['marca'];
-    $velocidade_maxima = $carro ['velocidade_max'];
+    $velocidade_maxima = $carro['velocidade_max'];
     echo "<br>";
     echo "O carro é da marca $marca e atinge no máximo $velocidade_maxima km/h";
