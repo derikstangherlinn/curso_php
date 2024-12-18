@@ -11,4 +11,6 @@ if(is_null($nome)) { // Verifica se a variavel $nome tem OU nao um valor, nesse 
 $nome = "Matheus";          //Atribui "Matheus" na variavel nome, logo após verifica se essa variavel é nula, e SE for nula vai imprimir no localhost 
 if(is_null($nome)) { // E ja que não é nula, não ira imprimir nada no localhost, pois a string "Matheus" esta dentro da $nome.
     echo "O valor é nulo!";
+} else { echo "<br>";
+    echo "O valor NÃO é nulo";
 }
