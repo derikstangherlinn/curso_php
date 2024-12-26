@@ -1,4 +1,5 @@
 Case sensitivity
+
 ● Significa sensibilidade a casas maiúsculas e minúsculas;
 ● Para instruções PHP não temos essa diferença, ou seja: echo = ECHO;
 ● Porém para variáveis são case sensitive;
