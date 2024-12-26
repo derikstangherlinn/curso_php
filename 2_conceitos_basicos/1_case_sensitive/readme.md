@@ -8,8 +8,4 @@ Case sensitivity
 
 ● Ou seja, $nome != $NOME;
 
-<<<<<<< HEAD
 ● Obs: veremos variáveis em detalhes mais adiante;
-=======
-● Obs: veremos variáveis em detalhes mais adiante;
->>>>>>> 884ff77268fc704410553d4039305b9ac88b003d
