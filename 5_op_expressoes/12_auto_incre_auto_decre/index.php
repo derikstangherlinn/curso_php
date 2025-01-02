@@ -17,5 +17,3 @@ $m = $m - 1;
 
 echo "n: " . $n . "<br>";
 echo "m: " . $m . "<br>";
-
-testeste
