@@ -5,4 +5,5 @@ Operador de igualdade
 ● O símbolo é: ==
 
 ● Exemplo: 5 == 4 # false
+
 ● Exemplo: 3 == 3 # true
