@@ -5,6 +5,7 @@
     }
 
     //op de identico
+
     if(5 === "5") {
         ECHO "5 É 5 2 <br>";
     }
@@ -17,14 +18,19 @@
         echo "É igual <br>";
     }
 
+
     $a = 4;
+
     $b = 4;
+    
     $c = "4";
 
     if($a === $b) {
         echo "A é igual a B <br>";
-    }
+    } 
 
     if ($a === $c) {
         echo "A é igual a C <br>";
+    } else {
+        echo "A NÃO é igual a C";
     }
