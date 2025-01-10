@@ -18,3 +18,5 @@ echo "<br>";
 echo gettype(12.2); //Float
 echo "<br>";
 echo gettype ("teste"); // String
+
+?>

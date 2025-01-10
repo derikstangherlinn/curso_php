@@ -17,3 +17,5 @@ $podeentrar = true;
 if ($podeentrar) {
     echo "O usuário pode entrar";
 }
+
+?>

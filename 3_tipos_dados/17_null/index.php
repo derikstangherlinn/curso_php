@@ -14,3 +14,5 @@ if(is_null($nome)) { // E ja que não é nula, não ira imprimir nada no localho
 } else { echo "<br>";
     echo "O valor NÃO é nulo";
 }
+
+?>

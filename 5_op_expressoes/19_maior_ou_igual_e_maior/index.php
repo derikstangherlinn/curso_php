@@ -25,3 +25,5 @@
     if($d >= $e) {
         echo "D é maior ou igual a E <br>";
     }
+
+?>

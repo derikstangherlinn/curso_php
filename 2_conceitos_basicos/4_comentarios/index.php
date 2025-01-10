@@ -10,3 +10,5 @@ echo "Teste comentario"; // Isso aqui imprime algo na tela
  asda
  linha
  */ 
+
+ ?>

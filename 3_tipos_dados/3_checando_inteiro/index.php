@@ -9,5 +9,5 @@
     if (is_int($a)) { // true
         echo "é um inteiro 3 <br>";
     }
-
+?>
 

@@ -34,3 +34,5 @@
     } else {
         echo "A NÃO é igual a C";
     }
+
+?>

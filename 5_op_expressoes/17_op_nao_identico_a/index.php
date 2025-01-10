@@ -22,3 +22,5 @@
     if([] !== "abc") {
         echo "Não é identico 3 <br>";
     }
+
+?>

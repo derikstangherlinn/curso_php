@@ -34,3 +34,5 @@
 
     echo "$x global <br>"; // 99; no localhost
 
+?>
+

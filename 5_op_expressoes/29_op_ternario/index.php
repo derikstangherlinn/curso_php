@@ -14,3 +14,5 @@
     echo $a === $b ? "Deu true <br>" : "Deu false <br>";
 
     echo $a === $b && 10 > 5 ? "Deu true <br>" : "Deu false <br>";
+
+?>

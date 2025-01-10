@@ -26,3 +26,5 @@
     if($b <= 42) {
         echo "B é menor ou igual a 42 <br>";
     }
+
+?>

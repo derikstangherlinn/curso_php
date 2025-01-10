@@ -17,3 +17,5 @@ $c = 12;
 echo $a % $b;
 echo "<br>";
 echo $a % $c . "<br>";
+
+?>

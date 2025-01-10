@@ -11,3 +11,5 @@ echo $operacao;
 echo "<br>";
 echo $operacao2;
 echo "<br>";
+
+?>

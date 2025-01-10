@@ -25,3 +25,5 @@
     if (2 == 3 && 5 >= 3) {
         echo "A comparação 3 é verdadeira <br>";
     }
+
+?>

@@ -32,7 +32,8 @@
     if ($a !== $b) {
         echo "NÃO SÃO IDENTICOS A:";
     }
-   
+
+?>
 
 
 

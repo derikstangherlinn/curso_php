@@ -14,3 +14,5 @@
     if(!($a >= $b)) {
         echo "A operação 3 é verdadeira <br>";
     }
+
+?>

@@ -35,3 +35,5 @@
     if($nome == $nomeDoSistema) {
         echo "O nome coincide 2 <br>";
     }
+
+?>

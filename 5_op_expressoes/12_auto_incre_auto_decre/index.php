@@ -17,3 +17,5 @@ $m = $m - 1; //Tirou 1 de 10 utilizando a subtração.
 
 echo "n: " . $n . "<br>";
 echo "m: " . $m . "<br>";
+
+?>

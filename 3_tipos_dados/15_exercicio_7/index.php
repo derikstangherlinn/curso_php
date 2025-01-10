@@ -23,3 +23,5 @@
     } else {
         echo "Ele não é maior de idade";
     }
+    
+?>

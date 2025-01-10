@@ -41,3 +41,5 @@ echo $nome;
 echo "<br>";
 echo $nome2;
 echo "<br>";
+
+?>

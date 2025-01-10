@@ -13,4 +13,6 @@
     $n = 5;
 
     echo "<br>";
-    echo $n; 
+    echo $n;
+
+?>

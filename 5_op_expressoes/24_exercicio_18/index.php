@@ -19,3 +19,5 @@ if( 20 === "20" && 51 >= 31) { // F V = F por conta do &&
 if (20 == "20" && 51 >= 31) { // V V = V 
     echo "A operacao teste é verdadeira <br>";
 }
+
+?>

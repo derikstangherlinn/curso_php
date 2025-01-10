@@ -26,3 +26,4 @@
         echo "C é identico a 34 <br>";
     }
 
+?>

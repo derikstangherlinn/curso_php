@@ -17,3 +17,4 @@
     if (0 == false) { // comparando o 0 com um false (==) 
         echo "0 é considerado falso! <br>";
     }
+?>

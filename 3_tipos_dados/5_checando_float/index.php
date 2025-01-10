@@ -24,4 +24,5 @@
 
     if (is_float(-50.0)) // Verificou se o numero é um float, SE sim = escreve no localhost " é um float "
         echo "-O número é um float!"; // SE NAO = " nao é um float "
-    else echo "-Não é um float"; 
+    else echo "-Não é um float";
+?> 

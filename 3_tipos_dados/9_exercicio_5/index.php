@@ -1,4 +1,5 @@
 <?php   
+
     echo 'Testando aspas simples <br>';
     echo "<br>";
     echo "Testando aspas duplas <br>";
@@ -12,4 +13,5 @@ if (is_string($idade)){
         echo "A idade dele é uma string <br>"; // Verificou se a idade é uma string SE SIM = "é uma string" SE NAO = "não é" 
         }   
 else echo "A idade dele não é uma string";
+
 ?>

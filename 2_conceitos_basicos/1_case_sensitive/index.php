@@ -12,4 +12,6 @@ $NOME = "Derik";
 echo "<br>";
 echo $nome;
 echo "<br>";
-echo $NOME; 
+echo $NOME;
+
+?>

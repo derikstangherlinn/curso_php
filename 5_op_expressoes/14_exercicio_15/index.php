@@ -20,4 +20,5 @@
      else {
         echo "Os valores NÃO são identicos";
     } 
-    
+
+?>

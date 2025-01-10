@@ -44,3 +44,5 @@
     if($b <= $a && $c >= $d && $c === $a) { // V V F logo não imprime nada, pois precisaria ser todos verdadeiros.
         echo "Entrou no if 9 <br>";
     }
+
+?>

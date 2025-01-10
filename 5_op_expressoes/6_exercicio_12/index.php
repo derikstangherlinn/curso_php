@@ -36,3 +36,5 @@ $op4 = $op3 / $e;
 echo $op4;
 echo "<br>";
 
+?>
+

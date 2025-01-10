@@ -11,3 +11,5 @@
 function whileNew() {
     return true;
 }
+
+?>

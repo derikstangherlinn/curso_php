@@ -13,6 +13,7 @@
     echo "<br>";             
     print_r ($arr[0]); // Comando para imprimir um valor dentro da array, 0...1...2 // A string "Derik" esta dentro do valor (0), imprimindo
                                     // no localhost respectivamente a variavel ($arr) e logo após a string "Derik". 
-
+                                    
+?>
 
 

@@ -9,3 +9,5 @@ echo "<br>";
 echo $marca;
 echo "<br>";
 print_r($itens);
+
+?>

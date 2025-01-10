@@ -8,5 +8,4 @@
     echo "<br>";
     echo 12 + 1.321;
     echo "<br>";
-
-  
+?>

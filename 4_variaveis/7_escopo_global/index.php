@@ -33,3 +33,5 @@
     testandoGlobal(); // 2 global funcao no localhost
     
     echo "$teste global 3 <br>"; // 2 global 3 no localhost
+
+?>

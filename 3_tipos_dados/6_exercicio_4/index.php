@@ -1,4 +1,5 @@
 <?php
+
     echo "0.05";
     echo "<br>";
     echo "-5.19";
@@ -16,4 +17,5 @@ if (is_float($a)) { // Verifica se o valor dentro da variavel é um float (negat
 if (is_int($a)) { //] false =  apesar de ser um numero ele nao é considerado um float, pois nao é negativo e nem pula casas decimais
     echo "É um inteiro";      
 }
+
 ?>

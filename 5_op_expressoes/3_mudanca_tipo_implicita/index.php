@@ -21,3 +21,5 @@
 
     echo $nomeCompleto;
     echo "<br>";
+
+?>

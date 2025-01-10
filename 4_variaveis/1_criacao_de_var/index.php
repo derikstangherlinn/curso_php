@@ -20,3 +20,5 @@
 
     $velocidadeMaxima = 100;    //Forma de visualizar a variavel de uma maneira mais clara.
     $velocidade_minima = 100;
+
+?>

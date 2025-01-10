@@ -11,3 +11,5 @@ $profissao = "Desenvolvedor";
 
     echo "O $nome tem $idade e é $profissao";
 
+?>
+

@@ -15,5 +15,4 @@ if (is_string("asd")) { // true = pois "asd" é um texto (string)
     echo "É uma string 3 <br>";
 }
 
-
 ?>

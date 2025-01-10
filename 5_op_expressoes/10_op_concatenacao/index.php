@@ -14,3 +14,5 @@
 
     echo "O carro da " . $marca . " tem um motor " . " e chega uma velocidade de " . $vel_max . "Km/h";
     echo "<br>";
+
+?>

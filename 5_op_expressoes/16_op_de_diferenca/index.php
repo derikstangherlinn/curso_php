@@ -29,3 +29,5 @@
  if(3 != "4") {
     echo "Testando diferença 5 <br>";
  }
+
+?>
