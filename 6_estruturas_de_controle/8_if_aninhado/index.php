@@ -17,7 +17,7 @@
 
         if ("Teste" != "Teste") {
 
-            echo "Entrou no segundo if 2 <br>";
+            //echo "Entrou no segundo if 2 <br>";
 
         } else {
 
@@ -33,7 +33,7 @@
 
         if ("Teste" != "Teste") {
 
-            echo "Entrou no segundo if 2 <br>";
+            //echo "Entrou no segundo if 2 <br>";
 
         } else {
 
@@ -63,7 +63,7 @@
 
         } else {
 
-            echo "Entrou no segundo else 2 <br>";
+            //echo "Entrou no segundo else 2 <br>";
         }
 
     } else {
