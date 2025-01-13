@@ -46,7 +46,6 @@
 
     }
 
-
     $escopo = 10;
 
     if (10 > 2) {
@@ -72,5 +71,3 @@
         echo "Entrou no primeiro else <br>";
         
     }
-
-
