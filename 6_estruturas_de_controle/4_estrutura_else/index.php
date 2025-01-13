@@ -56,3 +56,5 @@ if ($e > $d) {
 
     echo "Não entrou no else";
 }
+
+?>
