@@ -33,7 +33,7 @@ if ($a > $b) {
 
 }
 
-$msg = "Entrou no else 4";
+$msg = "Entrou no else 4 <br>";
 
 if ($a > $b) {
 
@@ -41,4 +41,18 @@ if ($a > $b) {
 
     echo $msg;
     
+}
+
+$msg1 = "Entrou no else 5";
+
+$d = 15;
+$e = 20;
+
+if ($e > $d) {
+
+    echo $msg1;
+
+} else {
+
+    echo "Não entrou no else";
 }
