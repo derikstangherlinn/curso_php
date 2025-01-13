@@ -6,8 +6,7 @@ quando a expressão de if é falsa;
 ● Em else não inserimos expressões;
 
 ● Exemplo:
-if (exp) {
 
+if (exp) {
 } else {
-    
 }
