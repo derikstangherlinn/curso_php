@@ -24,6 +24,6 @@
     case "João";
         echo "O nome é João";
         break;
-        default:
+       default:
           echo "O nome não foi encontrado";
     }
