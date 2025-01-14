@@ -18,12 +18,12 @@
 
     switch ($y) {
 
-        case "Derik":
-            echo "O nome é Derik";
-            break;
-        case "João";
-            echo "O nome é João";
-            break;
-            default:
-              echo "O nome não foi encontrado";
+    case "Derik":
+        echo "O nome é Derik";
+        break;
+    case "João";
+        echo "O nome é João";
+        break;
+        default:
+          echo "O nome não foi encontrado";
     }
