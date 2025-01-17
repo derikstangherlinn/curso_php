@@ -1,6 +1,6 @@
 <?php
 
-$nome = ["Derik", "Joao", "Pedro", "Maria"];
+$nomes = ["Derik", "Joao", "Pedro", "Maria"];
 
 $a = 10;
 
