@@ -20,7 +20,7 @@ class Calculadora
     public function divisao($n1, $n2)
     {
         if ($n2 == 0) {
-           echo "Divisão por zero não é permitida.";
+           return "Divisão por zero não é permitida.";
         }
         return $n1 / $n2;
     }
