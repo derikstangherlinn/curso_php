@@ -2,26 +2,26 @@
 
 class Calculadora
 {
-    public function adicao($a, $b)
+    public function adicao($n1, $n2)
     {
-        return $a + $b;
+        return $n1 + $n2;
     }
 
-    public function subtracao($a, $b)
+    public function subtracao($n1, $n2)
     {
-        return $a - $b;
+        return $n1 - $n2;
     }
 
-    public function multiplicacao($a, $b)
+    public function multiplicacao($n1, $n2)
     {
-        return $a * $b;
+        return $n1 * $n2;
     }
 
-    public function divisao($a, $b)
+    public function divisao($n1, $n2)
     {
-        if ($b == 0) {
-            throw new InvalidArgumentException("Divisão por zero não é permitida.");
+        if ($n2 == 0) {
+           echo "Divisão por zero não é permitida.";
         }
-        return $a / $b;
+        return $n1 / $n2;
     }
 }
