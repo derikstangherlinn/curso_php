@@ -16,4 +16,3 @@ echo "Subtração: $subtracao<br>";
 echo "Multiplicação: $multiplicacao<br>";
 echo "Divisão: $divisao<br>";
 
-?>
