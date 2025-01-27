@@ -1,7 +1,7 @@
 <?php
 
     class Pessoa {                                          
-        public $nome;
+        public $nome; //$nome é um atributo
         function falar() {
             echo "Ola pessoal!";
         }
@@ -11,15 +11,15 @@
 
     }
 
-    $matheus = new Pessoa();
-    $matheus ->nome = "Matheus"; 
+    $derik = new Pessoa();  //$derik acabou se tornando um objeto
+    $derik->nome = "Derik 1"; //Esta atribuindo o objeto para o atributo
 
-    $matheus->nome;
-    echo "Matheus <br>";
+    $derik->nome;
+    echo "Derik 2 <br>";
 
-    echo $matheus -> nome;      
+    echo $derik ->nome;      
     echo "<br>";
 
-    $matheus -> falar();
+    $derik-> falar(); //Atribuiu o objeto para a funcao falar
     
 ?>
