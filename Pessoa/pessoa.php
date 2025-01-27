@@ -2,18 +2,13 @@
 
 class Pessoa {
 
+    public $nome;
     function falar() {
-        echo "Derik" . "<br>";
- }
+        echo "O " . $this->nome . " deu bom dia"; 
+
+ }    
 }
 
 $mensagem = new Pessoa();
-$mensagem -> falar();
-
-
-class Conta {
-    function soma($n1, $n2) {
-        
-        return $n1 + $n2;
-    }
-}
+$mensagem->nome = "Derik";
+$mensagem->falar();  
