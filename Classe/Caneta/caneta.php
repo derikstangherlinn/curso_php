@@ -11,16 +11,18 @@ class Caneta {
 
         if ($this->tampada == true) {
             echo "<p>Erro!, não posso rabiscar! "; 
+
      }   else  { 
-        echo "<p>Estou rabiscando...</p>";
+            echo "<p>Estou rabiscando...</p>";
      }
-      
     }
 
     function tampar() {
         
+
     }
     function destampar() {
+
 
     }
 
