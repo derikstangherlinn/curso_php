@@ -4,11 +4,12 @@ class Login {
     private $email;
     private $senha;
 
-    public function getEmail() { //PEGOU o 
+    public function getEmail() { 
         return $this->email;
     }
     public function setEmail($e){
-        $this->email = $e;
+        $email = filter_var($e, FILTER_SANITIZE_EMAIL);
+        $this->email = $email;
     }
     public function getSenha() {
         return $this->senha;
@@ -27,7 +28,7 @@ class Login {
 }
 
 $logar = new Login();
-$logar-> setEmail("teste@teste.com");
+$logar-> setEmail("teste/()@teste.com");
 $logar-> setSenha("123456");
 $logar->logar(); 
 echo "<br>";
