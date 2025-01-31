@@ -2,8 +2,7 @@
     <head>
             <meta charset= "UTF-8">
             <title>POO</title>
-            <h2>Caneta POO:</h2>
-        </head>
+            <h2>CANETA POO:</h2>
         <body>
             <?php
                 require_once 'caneta.php';
