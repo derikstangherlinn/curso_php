@@ -1,5 +1,4 @@
 <?php
-
 class Calculadora
 {
     public function adicao($n1, $n2)

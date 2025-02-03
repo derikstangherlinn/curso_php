@@ -11,7 +11,7 @@ class Pessoa {
  }    
 }
 
-$mensagem = new Pessoa();
-$mensagem->nome = "Derik";
-$mensagem->idade = 21;
-$mensagem->falar();  
+    function soma($a, $b) {
+        return $a + $b;
+    }
+
