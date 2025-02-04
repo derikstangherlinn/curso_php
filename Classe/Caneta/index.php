@@ -17,7 +17,7 @@
                     $c1->tampar();
                     $c1->destampar();   
                     print_r($c1);
-
+                    
             ?>
             </pre>
         </body>
