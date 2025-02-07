@@ -4,7 +4,7 @@
     private $ponta;
     private $cor;
 
-    public function Caneta($m, $c,  $p) { //Metodo Construct
+    public function __construct ($m, $c,  $p) { //Metodo Construct
         $this->modelo = $m;
         $this->cor = $c;
         $this->ponta = $p;

@@ -7,6 +7,7 @@
             <pre>
             <?php
                 require_once 'caneta.php';
+                
                     $c1 = new Caneta();
                     $c1->modelo = "Bic Cristal";
                     $c1->cor = "Azul";
