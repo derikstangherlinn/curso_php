@@ -28,4 +28,27 @@ class Caneta {
 
     }
 
+    public function GetPonta() {
+        return $this->ponta;
+    }
+
+    public function SetPonta($p) {
+        $this-> ponta = $p;
+    }
+
+    public function GetCarga() {
+        return $this->carga;
+    }
+
+    public function SetCarga($c) {
+        $this->carga = $c;
+    }
+
+    public function GetTampada() {
+        return $this->tampada;
+    }
+
+    public function SetTampada($t) {
+        $this->tampada = $t;
+    }
 }
