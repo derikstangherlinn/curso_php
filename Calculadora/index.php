@@ -1,3 +1,9 @@
+<!DOCTYPE html>
+    <head>
+            <meta charset= "UTF-8">
+            <title>POO</title>
+            <h2>Minha Calculadora:</h2>
+        <body>
 <?php
 
 require_once 'calculadora.php';
@@ -16,3 +22,6 @@ echo "Subtração: $subtracao<br>";
 echo "Multiplicação: $multiplicacao<br>";
 echo "Divisão: $divisao<br>";
 
+?>
+</body>
+    </html>
