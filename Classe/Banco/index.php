@@ -13,7 +13,11 @@
                     $p1-> abrirConta("CC");
                     $p1-> setDono("Ana");
                     $p2-> abrirConta("CP");
-                    $p2-> setDono("Julia");                  
+                    $p2-> setDono("Julia");
+                    $p1->setnumConta(1000);
+                    $p2->setnumConta(2000);
+                    print_r($p1);
+                    print_r($p2);                
             ?>
             </pre>
         </body>
