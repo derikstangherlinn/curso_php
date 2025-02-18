@@ -14,8 +14,18 @@
                     $p1-> setDono("Ana");
                     $p2-> abrirConta("CP");
                     $p2-> setDono("Julia");
-                    $p1->setnumConta(1000);
-                    $p2->setnumConta(2000);
+                    $p1->setnumConta(1111);
+                    $p2->setnumConta(2222);
+                    $p1->depositar(300);
+                    $p2->depositar(500);
+                    $p2->sacar(1000);
+                    $p1->pagarMensal();
+                    $p2->pagarMensal();
+                    $p1->fecharConta();
+                    $p2->fecharConta();
+                    $p1->fecharConta();
+                    $p2->fecharConta();
+
                     print_r($p1);
                     print_r($p2);
             ?>

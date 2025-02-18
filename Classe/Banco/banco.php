@@ -55,19 +55,21 @@
         } 
     }
 
-    public function fecharConta($s){
+    public function fecharConta(){
         if ($this->getSaldo() > 0) {
-            echo ("A conta tem dinheiro!");
+            echo ("A conta tem dinheiro! " . "<br>");
         } else if ($this->getSaldo() < 0) {
-            echo ("Conta em débito!");
+            echo ("Conta em débito! " );
         } else { 
             $this->setStatus(false);
+            echo "<p>Conta de " . $this->getDono() . " fechada com sucesso </p> ";
         }
     }
 
     public function depositar($v) {
         if ($this->getStatus()) {
             $this->setSaldo($this->getSaldo() + $v);
+            echo "<p>Depósito de R$ $v na conta de " . $this->getDono() . "</p>";
         } else {
             echo "Impossivel depositar";
         }   
@@ -77,6 +79,7 @@
         if ($this->getStatus()) {
             if ($this->getSaldo() > $v) {
             $this->setSaldo($this->getSaldo() - $v);
+            echo "<p>Saque de $v autorizado na conta de " . $this->getDono() . "</p>";
             } else {
                 echo "Saldo Insuficiente";
             } 
@@ -93,7 +96,8 @@
             $v = 20;
         }
         if ($this->getStatus()) {
-            $this->setsaldo($this->getSaldo() - $v); 
+            $this->setsaldo($this->getSaldo() - $v);
+            echo "<p>Mensalidade de R$ $v debitada na conta de " . $this->getDono() . "</p>"; 
             } else {
                 echo "Problemas com a conta";
             }
