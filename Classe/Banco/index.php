@@ -21,8 +21,8 @@
                     $p2->sacar(1000);
                     $p1->pagarMensal();
                     $p2->pagarMensal();
-                    $p1->fecharConta();
-                    $p2->fecharConta();
+                    $p1->sacar(338);
+                    $p2->sacar(630);
                     $p1->fecharConta();
                     $p2->fecharConta();
 
