@@ -1,6 +1,5 @@
 <?php
-class Calculadora
-{
+class Calculadora {
     public function adicao($n1, $n2)
     {
         return $n1 + $n2;
