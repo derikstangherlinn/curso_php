@@ -1,6 +1,6 @@
 <?php
 
-class Controle {
+class ControleRemoto {
     private $volume;
     private $ligado;
     private $tocando;
