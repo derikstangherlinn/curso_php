@@ -6,6 +6,12 @@ class Controle {
     private $tocando;
 
 
+public function __construct() {
+    $this->volume = 50;
+    $this->ligado = false;
+    $this->tocando = false;
+}
+
 private function setVolume($v) {
     $this->volume = $v;
 } 
