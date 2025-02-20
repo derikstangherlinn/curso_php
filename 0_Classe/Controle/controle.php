@@ -36,4 +36,54 @@ private function getTocando() {
     return $this->tocando;
 }
 
+ public function ligar() {
+
+
+}
+
+public function desligar() {
+
+
+}
+
+public function abrirMenu() {
+
+
+}
+
+public function fecharMenu() {
+
+
+}
+
+public function desligarMudo() { 
+
+
+}
+
+public function ligarMudo() {
+
+
+}
+
+public function maisVolume() {
+
+
+}
+
+public function menosVolume() {
+
+
+}
+
+public function pause() {
+
+
+}
+
+public function play() {
+
+
+}
+ 
 }

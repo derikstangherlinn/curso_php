@@ -1,10 +1,11 @@
 <pre>
 <?php
 
-require_once 'controle.php';
+require_once 'controlador.php';
+class ControleRemoto implements Controlador {
+    private $volume;
+    private $ligado;
+    private $tocando;
 
-$c1 = new ControleRemoto();
-print_r($c1);
-
-?>
-</pre>
+    
+}
