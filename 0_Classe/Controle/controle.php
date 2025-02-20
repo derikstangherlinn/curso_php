@@ -42,7 +42,7 @@ private function getTocando() {
 }
 
 public function desligar() {
-
+    $this->setLigado(false);
 
 }
 
