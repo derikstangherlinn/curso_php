@@ -37,7 +37,7 @@ private function getTocando() {
 }
 
  public function ligar() {
-
+    $this->setLigado(true);
 
 }
 
