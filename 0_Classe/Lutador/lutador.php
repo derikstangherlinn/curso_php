@@ -42,18 +42,27 @@
 
         public function getPeso() {
             return $this->peso;
-        } 
+        }
+        
+        public function getCategoria() {
+            return $this->categoria;
+        }
 
+        public function getVitorias() {
+            return $this->vitorias;
+        }
 
-    
+        public function getDerrotas() {
+            return $this->derrotas;
+        }
 
+        public function getEmpates() {
+            return $this->empates;
+        }
 
-
-
-
-
-
-
+        public function setNome($n) {
+            $this->nome = $n;
+        }
     }
 
         /*public function apresentar() 
