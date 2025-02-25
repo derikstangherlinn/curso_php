@@ -9,7 +9,7 @@
         private $categoria;
         private $vitorias;
         private $derrotas;
-        private $empate;
+        private $empates;
 
         public function __construct($no, $na, $id, $al, $pe, $ca, $vi, $de, $em) {
             $this->nome = $no;
@@ -23,6 +23,37 @@
             $this->empate = $em;
 
         }
+
+        public function getNome() {
+            return $this->nome;
+        }
+
+        public function getNacionalidade() {
+            return $this->nacionalidade;
+        }
+
+        public function getIdade() {
+            return $this->idade;
+        }
+        
+        public function getAltura() {
+            return $this->altura;
+        }
+
+        public function getPeso() {
+            return $this->peso;
+        } 
+
+
+    
+
+
+
+
+
+
+
+
     }
 
         /*public function apresentar() 

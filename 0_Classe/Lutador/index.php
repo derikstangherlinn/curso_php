@@ -8,6 +8,13 @@
                 <?php
                         require 'lutador.php';
                         $l = new Lutador("Derik", "Brasil", 21, 1,68, 70 . "kg", 20, 2, 5 );
+
+
+
+
+
+
+                        
                         print_r($l);
                     ?>
                     </pre>
