@@ -11,6 +11,26 @@
         private $derrotas;
         private $empates;
 
+        public function apresentar() {
+
+        }
+
+        public function status() {
+
+        }
+
+        public function ganharLuta() {
+            $this->setVitorias($this->getVitorias() + 1);
+        }
+
+        public function perderLuta() {
+            $this->setDerrotas($this->getDerrotas() + 1);
+        }
+
+        public function empatarLuta() {
+            $this->setEmpates($this->getEmpates() + 1);
+        }
+
         public function __construct($no, $na, $id, $al, $pe, $ca, $vi, $de, $em) {
             $this->nome = $no;
             $this->nacionalidade = $na;
@@ -72,14 +92,38 @@
             $this->idade = $i;
         }
 
-        public function set
+        public function setAltura($a) {
+            $this->altura = $a;
+        }
+
+        public function setPeso($p) {
+            $this->peso = $p;
+            $this->setCategoria();
+        }
+
+        public function setCategoria() {
+            if ($this->peso < 52.2) {
+                $this->categoria = "Inválido";
+            } elseif ($this->peso <= 70.3) {
+                $this->categoria = "Leve";
+            } elseif ($this->peso <= 83.9) {
+                $this->categoria = "Médio";
+            } elseif ($this->peso <= 120.2) {
+                $this->categoria = "Pesado";
+            } else {
+                $this->categoria = "Inválido";
+            } 
+        }
+
+        public function setVitorias($v) {
+            $this->vitorias = $v;
+        }
+
+        public function setDerrotas($d) {
+            $this->derrotas = $d;
+        }
+
+        public function setEmpates($e) {
+            $this-> empates = $e;
+        }
     }
-
-        /*public function apresentar() 
-        public function status()    
-        public function ganharLuta()
-        public function perderLuta()
-        public function empatarLuta()
-*/
-
-
