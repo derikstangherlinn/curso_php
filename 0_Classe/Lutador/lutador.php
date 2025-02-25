@@ -60,9 +60,19 @@
             return $this->empates;
         }
 
-        public function setNome($n) {
-            $this->nome = $n;
+        public function setNome($no) {
+            $this->nome = $no;
         }
+
+        public function setNacionalidade($na) {
+            $this->nacionalidade = $na;
+        }
+
+        public function setIdade($i) {
+            $this->idade = $i;
+        }
+
+        public function set
     }
 
         /*public function apresentar() 
