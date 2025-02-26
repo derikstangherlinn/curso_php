@@ -12,11 +12,20 @@
         private $empates;
 
         public function apresentar() {
-
+            echo "<p>------------------------------</p>";
+            echo "<p>CHEGOU A HORA! O Lutador " . $this->getNome();
+            echo "veio diretamente de " . $this->getNacionalidade();
+            echo "tem " . $this->getIdade() . " anos e pesa " . $this->getPeso() . "Kg";
+            echo "<br> Ele tem " . $this->getVitorias() . " vitórias ";
+            echo $this->getDerrotas() . "derrotas e " . $this->getEmpates() . "empates";
         }
 
         public function status() {
-
+            echo "<p>-----------------------------</p>";
+            echo "<p>" . $this->getNome() . " é um peso " . $this->getCategoria();
+            echo " e já ganhou " . $this->getVitorias() . " vezes, ";
+            echo " perdeu " . $this->getDerrotas() . " vezes e ";
+            echo " empatou " . $this->getEmpates() . " vezes ";
         }
 
         public function ganharLuta() {
@@ -36,11 +45,10 @@
             $this->nacionalidade = $na;
             $this->idade = $id;
             $this->altura = $al;
-            $this->peso = $pe;
-            $this->categoria = $ca;
+            $this->setPeso($pe);
             $this->vitorias = $vi;
             $this->derrotas = $de;
-            $this->empate = $em;
+            $this->empates = $em;
 
         }
 
@@ -101,7 +109,7 @@
             $this->setCategoria();
         }
 
-        public function setCategoria() {
+        private function setCategoria() {
             if ($this->peso < 52.2) {
                 $this->categoria = "Inválido";
             } elseif ($this->peso <= 70.3) {

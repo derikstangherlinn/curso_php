@@ -7,15 +7,15 @@
             <pre>
                 <?php
                         require 'lutador.php';
-                        $l = new Lutador("Derik", "Brasil", 21, 1,68, 70 . "kg", 20, 2, 5 );
-
-
+                        $l = new Lutador ("Derik", "França", 31, 1.75, 68.9, "Leve", 11, 2, 1);
+                        $l -> status();
+                        print_r($l);
 
 
 
 
                         
-                        print_r($l);
+                       
                     ?>
                     </pre>
                 </body>
