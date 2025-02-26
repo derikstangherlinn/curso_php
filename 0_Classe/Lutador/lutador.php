@@ -40,7 +40,7 @@
             $this->setEmpates($this->getEmpates() + 1);
         }
 
-        public function __construct($no, $na, $id, $al, $pe, $ca, $vi, $de, $em) {
+        public function __construct($no, $na, $id, $al, $pe, $vi, $de, $em) {
             $this->nome = $no;
             $this->nacionalidade = $na;
             $this->idade = $id;
