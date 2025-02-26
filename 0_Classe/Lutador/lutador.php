@@ -15,17 +15,17 @@
             echo "<p>------------------------------</p>";
             echo "<p>CHEGOU A HORA! O Lutador " . $this->getNome();
             echo "veio diretamente de " . $this->getNacionalidade();
-            echo "tem " . $this->getIdade() . " anos e pesa " . $this->getPeso() . "Kg";
-            echo "<br> Ele tem " . $this->getVitorias() . " vitórias ";
-            echo $this->getDerrotas() . "derrotas e " . $this->getEmpates() . "empates";
+            echo " tem " . $this->getIdade() . " anos e pesa " . $this->getPeso() . "Kg";
+            echo "<br>Ele tem " . $this->getVitorias() . " vitórias ";
+            echo $this->getDerrotas() . " derrotas e " . $this->getEmpates() . " empates";
         }
 
         public function status() {
             echo "<p>-----------------------------</p>";
             echo "<p>" . $this->getNome() . " é um peso " . $this->getCategoria();
             echo " e já ganhou " . $this->getVitorias() . " vezes, ";
-            echo " perdeu " . $this->getDerrotas() . " vezes e ";
-            echo " empatou " . $this->getEmpates() . " vezes ";
+            echo "perdeu " . $this->getDerrotas() . " vezes e ";
+            echo "empatou " . $this->getEmpates() . " vezes ";
         }
 
         public function ganharLuta() {
@@ -40,7 +40,7 @@
             $this->setEmpates($this->getEmpates() + 1);
         }
 
-        public function __construct($no, $na, $id, $al, $pe, $ca, $vi, $de, $em) {
+        public function __construct($no, $na, $id, $al, $pe, $vi, $de, $em) {
             $this->nome = $no;
             $this->nacionalidade = $na;
             $this->idade = $id;
