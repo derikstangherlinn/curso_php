@@ -18,8 +18,8 @@
                         $UEC01 = new Luta();
                         $UEC01->marcarLuta($l[4], $l[5]);
                         $UEC01->lutar();
-                        $l[0] ->Status();
-                        $l[1] ->Status();
+                        $l[4] ->Status();
+                        $l[5] ->Status();
                         ?>
                     </pre>
                 </body>
