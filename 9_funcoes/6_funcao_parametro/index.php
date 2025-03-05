@@ -23,7 +23,7 @@
     velocidadeMaxima($velocidade);
 
     //PHP ignora parametro desnecessario
-    velocidadeMaxima(250, "teste");
+    //velocidadeMaxima(250, "teste"); 
 
     velocidadeMaxima("teste");
 
@@ -35,4 +35,4 @@
 
     descreverAnimal("Bob", "Vira lata <br>");
     descreverAnimal("Shark", "Pastor Alemao<br>");
-    descreverAnimal("Poodle", "Tita");
+    descreverAnimal("Poodle", "Tita<br>");
