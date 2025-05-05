@@ -16,7 +16,7 @@ while ($i <= 10) {
 
         echo "Loop interno $j <br>";
 
-        echo "$c 2 <br>"
+        echo "$c 2 <br>";
 
         $j++; //Adicionou +1 a variavel $j
 

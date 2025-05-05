@@ -1,6 +1,6 @@
 <?php
 
-    print ("Imprimindo algo com o print <br>"):
+    print ("Imprimindo algo com o print <br>");
 
     $carro = "BMW";
 
