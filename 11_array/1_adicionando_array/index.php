@@ -1,7 +1,8 @@
 <?php
 
     $arr = [];
-
+    
+    //Adicionando Valores
     print_r($arr);
     echo "<br>";
 
@@ -21,7 +22,7 @@
     echo "<br>";
 
     //Modificar Valores
-    $arr[1] = 25;
+    $arr[1] += 55;
 
     print_r($arr);
     echo "<br>";
