@@ -14,3 +14,15 @@
 
     $nome = "Derik";
 
+    $pessoa = [
+        'nome' => 'João',
+        'idade' => 29
+    ];
+
+    echo "$nome <br>";
+
+    extract($pessoa);
+
+    echo "$nome <br>";
+    echo "$idade <br>";
+
