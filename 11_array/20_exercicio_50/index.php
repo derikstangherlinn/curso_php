@@ -9,7 +9,7 @@
 
  ?>
 
-<table>border='1'>
+<table border='1'>
     <tr>
         <th>Nome</th>
         <th>Idade</th>
