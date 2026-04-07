@@ -1,6 +1,6 @@
 <?php
 
- $Derik = [
+ $derik = [
     'nome' => 'Derik',
     'idade' => 22,
     'profissao' => 'Programador'
@@ -12,7 +12,7 @@
     'profissao' => 'Eng. Civil',
  ];
 
- foreach($matheus as $carac => $value) {
+ foreach($derik as $carac => $value) {
 
     echo "$carac => $value <br>";
 
