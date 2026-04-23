@@ -9,7 +9,7 @@
     "Henrique" => 12,
  ];
 
- asort($ranking);
+ arsort($ranking);
 
  ?>
 
