@@ -5,7 +5,7 @@
     $arr3 = [2.1, 44.5, 43.3];
     $arr4 = ["asd", "as", "a"];
 
-    $arrMerge = array_merge($arr1, $arr2, $arr3. $arr4, [0,1]);
+    $arrMerge = array_merge($arr1, $arr2, $arr3, $arr4, [0, 1]);
 
     print_r($arrMerge);
     echo "<br>";
